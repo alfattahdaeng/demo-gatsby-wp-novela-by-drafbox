@@ -1,22 +1,22 @@
 module.exports = {
-  siteUrl: "https://wp-novela-preview.draftbox.co", // Site domain. Do not include a trailing slash!
+  siteUrl: "https://gatsby.interseksi.com", // Site domain. Do not include a trailing slash!
 
   postsPerPage: 10, // Number of posts shown on paginated pages (changes this requires sometimes to delete the cache)
 
-  siteTitleMeta: "Built with Draftbox", // This allows an alternative site title for meta data for pages.
+  siteTitleMeta: "Gatsby - Interseksi Development", // This allows an alternative site title for meta data for pages.
   siteDescriptionMeta:
-    "Lightning fast, secure front-end for your WordPress or Ghost blog, without coding", // This allows an alternative site description for meta data for pages.
+    "Lightning fast, secure front-end for your WordPress", // This allows an alternative site description for meta data for pages.
 
   shareImageWidth: 1000, // Change to the width of your default share image
   shareImageHeight: 523, // Change to the height of your default share image
 
-  shortTitle: "Built with Draftbox", // Used for App manifest e.g. Mobile Home Screen
+  shortTitle: "Gatsby - Interseksi", // Used for App manifest e.g. Mobile Home Screen
   siteIcon: "favicon.png", // Logo in /static dir used for SEO, RSS, and App manifest
   backgroundColor: "#e9e9e9", // Used for Offline Manifest
   themeColor: "#15171A", // Used for Offline Manifest
-  apiUrl: "https://wordpress.theasdfghjkl.com",
+  apiUrl: "https://developer.interseksi.com",
   subscribeWidget: {
-    visible: true,
+    visible: false,
     title: "Subscribe to Draftbox",
     helpText: "Get the latest posts delivered right to your inbox.",
     successMessage: "Thanks for subscribing to Draftbox.",
@@ -25,32 +25,32 @@ module.exports = {
     navigation: [
       {
         label: "Home",
-        url: "https://wp-novela-preview.draftbox.co/",
+        url: "https://gatsby.interseksi.com/",
       },
       {
         label: "Contact",
-        url: "https://wp-novela-preview.draftbox.co/contact",
+        url: "https://gatsby.interseksi.com/contact",
       },
     ],
   },
   footer: {
-    copyright: "Built with Draftbox",
+    copyright: "Gatsby - Interseksi",
     navigation: [
       {
         label: "Home",
-        url: "https://wp-novela-preview.draftbox.co/",
+        url: "https://gatsby.interseksi.com/",
       },
       {
         label: "Sitemap",
-        url: "https://wp-novela-preview.draftbox.co/sitemap.xml",
+        url: "https://gatsby.interseksi.com/sitemap.xml",
       },
       {
         label: "RSS",
-        url: "https://wp-novela-preview.draftbox.co/rss.xml",
+        url: "https://gatsby.interseksi.com/rss.xml",
       },
       {
         label: "Contact",
-        url: "https://wp-novela-preview.draftbox.co/contact",
+        url: "https://gatsby.interseksi.com/contact",
       },
       {
         label: "External Link",
@@ -59,11 +59,11 @@ module.exports = {
     ],
   },
   socialLinks: {
-    twitter: "https://twitter.com/draftboxhq",
+    twitter: "https://twitter.com/",
     facebook: "https://facebook.com/",
     instagram: "https://www.instagram.com/",
     linkedin: "https://linkedin.com/",
-    github: "https://github.com/draftbox-co",
+    github: "https://github.com/alfattahdaeng",
     pinterest: "",
     youtube: "",
     dribbble: "",
@@ -72,31 +72,31 @@ module.exports = {
     whatsapp: "",
   },
   contactWidget: {
-    title: "Contact Built with Draftbox",
+    title: "Contact",
     successMessage: "We’ll get in touch with you soon.",
   },
   metadata: {
-    title: "Built with Draftbox",
+    title: "Gatsby - Interseksi",
     description:
-      "Lightning fast, secure front-end for your WordPress or Ghost blog, without coding. Draftbox is a new-age blogging platform for everyone, built on Gatsby.",
+      "Lightning fast, secure front-end for your WordPress.",
   },
   twitterCard: {
-    title: "Built with Draftbox",
+    title: "Gatsby - Interseksi",
     description:
-      "Lightning fast, secure front-end for your WordPress or Ghost blog, without coding. Draftbox is a new-age blogging platform for everyone, built on Gatsby.",
+      "Lightning fast, secure front-end for your WordPress.",
     imageUrl: "twitterImage.png",
-    username: "@DraftboxHQ",
+    username: "@twitter",
   },
   facebookCard: {
-    title: "Built with Draftbox",
+    title: "Gatsby - Interseksi",
     description:
-      "Lightning fast, secure front-end for your WordPress or Ghost blog, without coding. Draftbox is a new-age blogging platform for everyone, built on Gatsby.",
+      "Lightning fast, secure front-end for your WordPress.",
     imageUrl: "facebookImage.png",
     appId: "2391725224459953",
   },
-  siteTitle: "Built with Draftbox",
+  siteTitle: "Gatsby - Interseksi",
   siteDescription:
-    "Lightning fast, secure front-end for your WordPress or Ghost blog, without coding.",
+    "Lightning fast, secure front-end for your WordPress.",
   language: "en",
   logoUrl: "logo.svg",
   iconUrl: "favicon.png",
